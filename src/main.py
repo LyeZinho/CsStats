@@ -47,5 +47,5 @@ async def reload(ctx, cog:str):
 
 		
 
-TOKEN = "OTMxOTkyODUyMTQ0MjE4MTMy.YeMf-w.OA_hC1JJOAIgiA_vUsHjz_tmrAM"
+TOKEN = ""
 bot.run(TOKEN)
