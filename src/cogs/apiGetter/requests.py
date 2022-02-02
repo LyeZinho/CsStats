@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 
@@ -6,7 +7,7 @@ class apiGetter:
         me.steamid = steamid
 
     def ApiUrlGen(steamid):
-        baseurl = ""
+        baseurl = os.environ['apiurl']
         endurl = baseurl + steamid
         return endurl
 
